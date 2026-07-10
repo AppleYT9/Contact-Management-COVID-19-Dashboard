@@ -1,0 +1,30 @@
+# Python virtual environment and compilation cache
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node dependencies and build artifacts
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Database files
+*.db
+backend/contacts.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
