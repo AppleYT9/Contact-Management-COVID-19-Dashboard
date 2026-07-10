@@ -91,3 +91,17 @@ frontend/
 3. **Optimized Search**: Filters contact entries in real-time on both client and database levels. Matches specifically against full names.
 4. **COVID-19 Charts**: Displays global pandemic metrics and charts historical case timelines over the past 120 days.
 5. **Interactive Map**: Maps case distribution worldwide using a responsive Leaflet bubble-map layer.
+
+---
+
+## Deployment Configuration
+
+When deploying the application to production platforms (such as Render, Vercel, or Heroku), configure the following environment variables:
+
+### Backend Configuration
+- `DATABASE_URL`: Connection string for the database (e.g., `postgresql://user:pass@host:port/db`). Defaults to a local SQLite database (`sqlite:///./contacts.db`).
+- `ALLOWED_ORIGINS`: Comma-separated list of allowed origins for CORS (e.g., `https://your-frontend-domain.com`).
+
+### Frontend Configuration
+- `VITE_API_URL`: URL to the deployed backend's API root (e.g., `https://your-backend-domain.com/api/v1`). Defaults to `http://localhost:8000/api/v1`.
+
