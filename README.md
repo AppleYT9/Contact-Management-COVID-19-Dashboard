@@ -1,5 +1,5 @@
 # Contact Management & COVID-19 Dashboard
-
+Live Link:https://contact-management-covid-19-dashboa.vercel.app/login
 A full-stack web application featuring secure user authentication, private contact management, and interactive COVID-19 statistics.
 
 ## Tech Stack
@@ -95,6 +95,7 @@ frontend/
 ---
 
 ## Deployment Configuration
+
 
 When deploying the application to production platforms (such as Render, Vercel, or Heroku), configure the following environment variables:
 
