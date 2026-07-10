@@ -46,6 +46,7 @@ export const MapsPage: React.FC = () => {
           className="h-full w-full"
           scrollWheelZoom={true}
           style={{ minHeight: '400px' }}
+          preferCanvas={true}
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
